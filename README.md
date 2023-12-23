@@ -1,21 +1,21 @@
 <div  align = "center">
-  <img src="https://github.com/RanitManik/myGPT/assets/138437760/0dd5a72b-3b0e-41d8-8fc2-d4279914add2" height="100">
+  <img src="https://github.com/RanitManik/myGPT/assets/138437760/0631b375-ca63-4c39-9e6c-686b6372cfe5" height="100">
   <h1>myGPT Discord Chatbot</h1>
-</div> 
+</div>
 
+# Overview
 
-## Overview
+myGPT is a Discord chatbot powered by OpenAI's GPT-3.5 Turbo model created using Python. 
+It reads messages from a specified chat file and responds to mentions in Discord using the GPT-3.5 Turbo model.
 
-myGPT is a Discord chatbot powered by OpenAI's GPT-3.5 Turbo model. It reads messages from a specified chat file and responds to mentions in Discord using the GPT-3.5 Turbo model.
-
-## Features
+# Features
 
 - Seamless integration with Discord
 - Configurable chat file selection
 - Utilizes OpenAI GPT-3.5 Turbo for natural language understanding
 - Easy-to-use and extendable
 
-## Installation
+# Installation
 
 1. Clone the repository:
 
@@ -37,7 +37,7 @@ myGPT is a Discord chatbot powered by OpenAI's GPT-3.5 Turbo model. It reads mes
    SECRET_KEY=your_discord_bot_token
    OPENAI_API_KEY=your_openai_api_key
    ```
-## Usage
+# Usage
 
 1. Run the bot:
 
@@ -50,7 +50,7 @@ myGPT is a Discord chatbot powered by OpenAI's GPT-3.5 Turbo model. It reads mes
 
 4. Start chatting! Mention the bot (add `@myGPT` before each prompt) to trigger responses based on the GPT-3.5 Turbo model.
 
-## Configuration
+# Configuration
 
 You can configure the bot by modifying the following variables in `bot.py`:
 
@@ -58,13 +58,13 @@ You can configure the bot by modifying the following variables in `bot.py`:
 - `model`: Specify the GPT model to be used (default is "gpt-3.5-turbo").
 - Adjust other parameters like `temperature`, `max_tokens`, `top_p`, `frequency_penalty`, and `presence_penalty` as needed.
 
-## Chat Files
+# Chat Files
 
 - `chats/chat1.txt`: [Sample chat file 1](chats/chat1.txt) — my resume
 - `chats/chat2.txt`: [Sample chat file 2](chats/chat2.txt) — whatsapp chat bwtween me and my friend
 - `chats/chat3.txt`: [Sample chat file 3](chats/chat3.txt) — a simple AI generated friends chat
 
-## Contributing
+# Contributing
 
 1. Clone the repository:
 
@@ -98,11 +98,11 @@ You can configure the bot by modifying the following variables in `bot.py`:
 
 Feel free to contribute to the project by opening issues or pull requests. Any feedback or improvements are appreciated.
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact
+# Contact
 
 - Name - [Ranit Manik](https://github.com/RanitManik)
 - Email - ranitmanikofficial@outlook.com
