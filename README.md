@@ -99,7 +99,7 @@ By following these steps, you've successfully created an OpenAI GPT-3.5 Turbo AP
 
 # Configuration
 
-You can configure the bot by modifying the following variables in `bot.py`:
+You can configure the bot by modifying the following variables in `main.py`:
 
 - `fileNumber`: Choose the chat file by setting this variable to 1, 2, or 3.
 - `model`: Specify the GPT model to be used (default is "gpt-3.5-turbo").
