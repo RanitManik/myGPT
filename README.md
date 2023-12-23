@@ -28,27 +28,74 @@ It reads messages from a specified chat file and responds to mentions in Discord
    ```bash
    pip install -r requirements.txt
    ```
-
-3. Set up environment variables:
-
-   Create a `.env` file in the project root and add the following:
-
-   ```plaintext
-   SECRET_KEY=your_discord_bot_token
-   OPENAI_API_KEY=your_openai_api_key
-   ```
+   
 # Usage
 
-1. Run the bot:
+### 1. create a Discord Bot
+  
+  1. Create a Discord bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+  
+  2. Copy the bot token.
 
-   ```bash
-   python3 main.py
-   ```
+  3. Replace `Your Discord Application Token Goes here` in the `.env` file with the actual bot token.
+  
+  4. Visit the following link, replacing `<YOUR_CLIENT_ID>` with your bot's client ID:
 
-2. Invite the bot to your Discord server and ensure it has the necessary permissions.
-   [Download Link](https://discord.com/oauth2/authorize?client_id=1188130542902837258&permissions=1024&scope=bot)
+### 2. Invite the Bot to Your Discord Server
 
-4. Start chatting! Mention the bot (add `@myGPT` before each prompt) to trigger responses based on the GPT-3.5 Turbo model.
+  1. Create a Discord bot on the [Discord Developer Portal](https://discord.com/developers/applications).
+  
+  2. Copy the bot token.
+  
+  3. Replace `your_discord_bot_token` in the `.env` file with the actual bot token.
+  
+  4. Visit the following link, replacing `<YOUR_CLIENT_ID>` with your bot's client ID:
+
+### 3. Create an OpenAI Account
+  
+  1. Visit the OpenAI website: [https://beta.openai.com/](https://beta.openai.com/)
+  
+  2. Sign up for an account if you don't have one. Follow the registration process.
+
+### 4. Access the OpenAI API Section
+
+  1. Once you're logged in, navigate to the OpenAI API section.
+  
+     - On the OpenAI dashboard, click on your account name in the top right corner.
+     - Select "API" from the dropdown menu.
+
+### 5. Create a New API Key
+
+  1. In the API section, you'll find the option to create a new API key.
+  
+  2. Click on the "Create API Key" button.
+  
+  3. Give your API key a meaningful name related to your project (e.g., "RanitGPT").
+  
+  4. Copy the generated API key. It will look something like this: `sk-xxxxxx-xxxxxxxxxxxxxx`.
+  
+  5. Open the `.env` file in your RanitGPT project directory.
+  
+  6. Replace the placeholder `Your openAI API key goes here` with the actual API key you obtained from OpenAI:
+  
+     ```plaintext
+     SECRET_KEY=your_discord_bot_token
+     OPENAI_API_KEY=sk-xxxxxx-xxxxxxxxxxxxxx
+     ```
+
+### 6. Save and Run
+
+  1. Save the changes to the `.env` file.
+
+2. Now, when you run your RanitGPT bot, it will use the OpenAI GPT-3.5 Turbo model with the specified API key.
+
+### 7. Verify Functionality
+
+  1. Trigger the bot on Discord (mention `@RanitGPT`).
+  
+  2. Confirm that the bot is generating responses using the GPT-3.5 Turbo model.
+
+By following these steps, you've successfully created an OpenAI GPT-3.5 Turbo API key and integrated it into your RanitGPT project. This key allows your bot to communicate with the OpenAI API and generate natural language responses.
 
 # Configuration
 
