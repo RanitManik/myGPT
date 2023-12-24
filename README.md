@@ -153,7 +153,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Name - [Ranit Manik](https://github.com/RanitManik)
 - Email - ranitmanikofficial@outlook.com
-- Project Link - [https://github.com/RanitManik/Netflix-clone](https://github.com/RanitManik/Netflix-clone)
 
 ---
 
