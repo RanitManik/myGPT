@@ -20,7 +20,7 @@ It reads messages from a specified chat file and responds to mentions in Discord
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/RanitManik/your-repo.git
+   git clone https://github.com/RanitManik/myGPT
    ```
 
 2. Install the required Python packages:
