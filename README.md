@@ -1,35 +1,57 @@
 <div  align = "center">
-  <img src="https://github.com/RanitManik/myGPT/assets/138437760/0631b375-ca63-4c39-9e6c-686b6372cfe5" height="100">
+  <img src="https://github.com/RanitManik/myGPT/assets/138437760/0631b375-ca63-4c39-9e6c-686b6372cfe5" width="100">
   <h1>myGPT Discord Chatbot</h1>
 </div>
 
-# Overview
 
-myGPT is a Discord chatbot powered by OpenAI's GPT-3.5 Turbo model created using Python. 
-It reads messages from a specified chat file and responds to mentions in Discord using the GPT-3.5 Turbo model.
+Welcome to the comprehensive setup guide for myGPT, an exceptional and highly efficient personal Discord chatbot that harnesses the immense power of OpenAI's cutting-edge GPT-3.5 Turbo model. With this guide, you will be taken on a step-by-step journey that encompasses not only the installation process but also the crucial configuration steps that are vital in ensuring the seamless and optimal functioning of your exceptional chatbot. Prepare to witness the incredible capabilities of myGPT as it springs to life and transforms your Discord experience into something truly extraordinary.
 
-# Features
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+  - [Clone the Repository](#1-clone-the-repository)
+  - [Install Required Packages](#2-install-required-packages)
+- [Usage](#usage)
+  - [Create a Discord Bot](#1-create-a-discord-bot)
+  - [Invite the Bot to Your Discord Server](#2-invite-the-bot-to-your-discord-server)
+  - [Create an OpenAI Account](#3-create-an-openai-account)
+  - [Access the OpenAI API Section](#4-access-the-openai-api-section)
+  - [Create a New API Key](#5-create-a-new-api-key)
+  - [Save and Run](#6-save-and-run)
+  - [Verify Functionality](#7-verify-functionality)
+- [Configuration](#configuration)
+- [Chat Files](#chat-files)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+**myGPT** is a Discord chatbot powered by OpenAI's GPT-3.5 Turbo model, created using Python. It reads messages from a specified chat file and responds to mentions in Discord using the GPT-3.5 Turbo model.
+
+## Features
 
 - Seamless integration with Discord
 - Configurable chat file selection
 - Utilizes OpenAI GPT-3.5 Turbo for natural language understanding
 - Easy-to-use and extendable
 
-# Installation
+## Installation
 
-1. Clone the repository:
+### 1. Clone the Repository
 
-   ```bash
-   git clone https://github.com/RanitManik/myGPT
-   ```
+```bash
+git clone https://github.com/RanitManik/myGPT
+```
 
-2. Install the required Python packages:
+### 2. Install Required Packages
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
-# Usage
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
 
 ### 1. create a Discord Bot
   
@@ -97,7 +119,7 @@ It reads messages from a specified chat file and responds to mentions in Discord
 
 By following these steps, you've successfully created an OpenAI GPT-3.5 Turbo API key and integrated it into your RanitGPT project. This key allows your bot to communicate with the OpenAI API and generate natural language responses.
 
-# Configuration
+## Configuration
 
 You can configure the bot by modifying the following variables in `main.py`:
 
@@ -105,13 +127,13 @@ You can configure the bot by modifying the following variables in `main.py`:
 - `model`: Specify the GPT model to be used (default is "gpt-3.5-turbo").
 - Adjust other parameters like `temperature`, `max_tokens`, `top_p`, `frequency_penalty`, and `presence_penalty` as needed.
 
-# Chat Files
+## Chat Files
 
 - `chats/chat1.txt`: [Sample chat file 1](chats/chat1.txt) — my resume
 - `chats/chat2.txt`: [Sample chat file 2](chats/chat2.txt) — whatsapp chat bwtween me and my friend
 - `chats/chat3.txt`: [Sample chat file 3](chats/chat3.txt) — a simple AI generated friends chat
 
-# Contributing
+## Contributing
 
 1. Clone the repository:
 
@@ -145,20 +167,17 @@ You can configure the bot by modifying the following variables in `main.py`:
 
 Feel free to contribute to the project by opening issues or pull requests. Any feedback or improvements are appreciated.
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-# Contact
+## Contact
 
-Connect with me through various portals:
+_Connect with me through various portals :_
 
-- [Email](mailto:ranitmanik.dev@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/ranit-manik/)
-- [GitHub](https://github.com/RanitManik)
-- [Instagram](https://www.instagram.com/ranit_manik_/)
-- [Facebook](https://www.facebook.com/RanitKumarManik/)
-- [Twitter](https://twitter.com/RANIT_MANIK)
-- [Codepen](https://codepen.io/RANIT-MANIK)
-- [Replit](https://replit.com/@ranit-manik)
+- [<img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/112-gmail_email_mail-512.png" width="20" /> Email](mailto:ranitmanik.dev@gmail.com)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" width="20" /> LinkedIn](https://www.linkedin.com/in/ranit-manik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" width="20" /> Instagram](https://www.instagram.com/ranit_manik_/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" width="20" /> Facebook](https://www.facebook.com/RanitKumarManik/)
+- [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/512px-Logo_of_Twitter.svg.png" width="20" /> Twitter](https://twitter.com/RANIT_MANIK)
 
