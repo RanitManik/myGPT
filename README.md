@@ -25,6 +25,7 @@ Welcome to the comprehensive setup guide for myGPT, an exceptional and highly ef
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Acknowledgment](#acknowledgment)
 
 ## Introduction
 
@@ -212,3 +213,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   </tr>
 </table>
 
+## Acknowledgment
+
+I want to express my gratitude to [CodeWithHarry](https://www.youtube.com/c/CodeWithHarry) for their insightful tutorial on creating the myGPT Discord Chatbot using OpenAI's GPT-3.5 Turbo model, which served as a vital guide. Special thanks to contributors and the open-source community for enhancing the project. The inspiration behind myGPT arose from the need for an advanced Discord chatbot leveraging OpenAI's GPT-3.5 Turbo. For inquiries, feedback, or collaboration, feel free to contact me. Thank you for your support in making myGPT a valuable addition to the Discord community.
+
+Happy Coding!
